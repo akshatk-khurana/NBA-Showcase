@@ -1,0 +1,121 @@
+.container {
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    color: white;
+}
+
+.name {
+    font-size: 14px;
+    padding: 5px;
+    border: dodgerblue 3px solid;
+}
+
+img {
+    object-fit: cover;
+    height: 200px;
+    width: 300px;
+    margin-left: 6px;
+    margin-bottom: -8px;
+}
+
+table {
+    border: dodgerblue 3px solid;
+    font-size: 12px;
+    width: 100%;
+    font-weight: normal;
+}
+
+.divider {
+    color:dodgerblue;
+    font-size:20px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:fixed;
+    top: 0px;
+    color: white;
+    padding: 10px;
+    height: 100vh;
+    width: 1vw;
+    text-align: center;
+    right: 0px;
+    font-size: 20px;
+    background-color: rgba(30, 143, 255, 0.779);
+}
+
+.sidebar:hover {
+    background-color: dodgerblue;
+}
+
+.flex-container > div {
+    background-color: rgba(207, 42, 42, 0.698);
+    padding: auto;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-top: dodgerblue 3px solid;
+}
+
+body {
+    background: url('https://wallpaper.dog/large/1001569.jpg');
+    background-size: cover;
+}
+
+button {
+    background-color: rgba(206, 33, 33, 0.624);
+    border: none;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    width: 25%;
+    height: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+hr {
+    width: 75%;
+    background: linear-gradient(to right, red , dodgerblue);
+    border: none;
+    height: 3px;
+}   
+
+input {
+    background-color: rgba(30, 143, 255, 0.383);
+    border: none;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    width: 50%;
+    height: 80px;
+    font-size: 20px;
+    caret-color: white;
+    color: white;
+}
+
+input:focus, input:hover {
+    background-color: dodgerblue;
+    outline: none;
+}
+
+
+button:hover {
+    outline: none;
+    background-color:rgb(206, 33, 33);
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
